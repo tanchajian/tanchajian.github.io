@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<style>
+body{	background-color:#333333;
+		color:#eaeaea;}
+#gallery{	position: relative;}
+#gallery ul{width: 300px;
+			list-style:none;}
+#gallery li{display: inline;
+			float: left;
+			padding: 10px;}
+#gallery span{	position: absolute;
+				left: -1000px;
+				opacity: 0;
+				transition: opacity 3s ease-in-out;
+				color: white;}
+#gallery a:hover span{	position: absolute;
+						top: 16px;
+						left: 320px;
+						text-align: center;
+						opacity: 1;}
+</style>
+<head>
+</head>
+<body>
+<h1>Image Gallery</h1>
+<div id="gallery">
+<ul>
+	<li>
+		<a href="image/photo1.jpg">
+		<img src="image/photo1thumb.jpg" width="100" height="75" alt="Golden Gate Bridge">
+		<span>
+			<img src="image/photo1.jpg" width="400" height="300" alt="Golden Gate Bridge">
+			<br>Golden Gate Bridge
+		</span>
+		</a>	
+	</li>
+	
+	<li>
+		<a href="image/photo2.jpg">
+		<img src="image/photo2thumb.jpg" width="100" height="75" alt="SeaNSand">
+		<span>
+			<img src="image/photo2.jpg" width="400" height="300" alt="SeaNSand">
+			<br>SeaNSand
+		</span>
+		</a>	
+	</li>
+	
+	<li>
+		<a href="image/photo3.jpg">
+		<img src="image/photo3thumb.jpg" width="100" height="75" alt="Mountain">
+		<span>
+			<img src="image/photo3.jpg" width="400" height="300" alt="Mountain">
+			<br>Mountain
+		</span>
+		</a>	
+	</li>
+	
+	<li>
+		<a href="image/photo4.jpg">
+		<img src="image/photo4thumb.jpg" width="100" height="75" alt="Road">
+		<span>
+			<img src="image/photo4.jpg" width="400" height="300" alt="Road">
+			<br>Road
+		</span>
+		</a>	
+	</li>
+	
+	<li>
+		<a href="image/photo5.jpg">
+		<img src="image/photo1thumb.jpg" width="100" height="75" alt="Sea">
+		<span>
+			<img src="image/photo5.jpg" width="400" height="300" alt="Sea">
+			<br>Sea
+		</span>
+		</a>	
+	</li>
+	
+	<li>
+		<a href="image/photo6.jpg">
+		<img src="image/photo1thumb.jpg" width="100" height="75" alt="Sunride">
+		<span>
+			<img src="image/photo6.jpg" width="400" height="300" alt="Sunride">
+			<br>Sunride
+		</span>
+		</a>	
+	</li>
+	
+	
+</ul>
+</div>
+</body>
+</html>
